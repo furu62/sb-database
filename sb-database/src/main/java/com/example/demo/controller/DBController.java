@@ -37,9 +37,10 @@ public class DBController {
 		mav.addObject("foodNameList",foodNameList);
 		mav.addObject("searchWord",searchWord);
 		
-		
+		mav.setViewName("result");
 		
 		return mav;
 	}
 
 }
+
